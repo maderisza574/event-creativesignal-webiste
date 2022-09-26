@@ -4,8 +4,8 @@
 .column {
   float: left;
   position: absolute;
-  width: 850px;
-  height: 950px;
+  width: 600px;
+  height: 500px;
   left: 0px;
   top: 0px;
 
@@ -13,9 +13,9 @@
 }
 .column2 {
   float: right;
-  position: absolute;
+  position: relative;
   width: 200px;
-  height: 950px;
+  height: 500px;
   left: 850px;
   top: 0px;
 
