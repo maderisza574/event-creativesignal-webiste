@@ -4,7 +4,7 @@
 .column {
   float: left;
   position: absolute;
-  width: 600px;
+  width: auto;
   height: 500px;
   left: 0px;
   top: 0px;
@@ -14,10 +14,13 @@
 .column2 {
   float: right;
   position: relative;
-  width: 200px;
   height: 500px;
   left: 850px;
   top: 0px;
+  width: auto;
 
   background: #ffffff;
+}
+.form-group {
+  max-width: fit-content;
 }
