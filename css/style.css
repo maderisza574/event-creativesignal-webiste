@@ -1,0 +1,23 @@
+.body {
+  background-color: #ffffff;
+}
+.column {
+  float: left;
+  position: absolute;
+  width: 850px;
+  height: 950px;
+  left: 0px;
+  top: 0px;
+
+  background: #3366ff;
+}
+.column2 {
+  float: right;
+  position: absolute;
+  width: 200px;
+  height: 950px;
+  left: 850px;
+  top: 0px;
+
+  background: #ffffff;
+}

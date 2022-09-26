@@ -5,13 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creative Signal Event Organizer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <form>
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" />
-    </form>
+    <div class="row">
+      <div class="column">image</div>
+      <div class="column2">
+
+        SIGN UP
+        <p>already have an account? Log In</p>
+        <div class="input-fullname">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Full Name"
+            aria-label="Full Name"
+          />
+        </div>
+        <p></p>
+        <div class="input-email">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Email"
+            aria-label="Email"
+          />
+        </div>
+        <p></p>
+        <div class="input-pass">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Password"
+            aria-label="Password"
+          />
+        </div>
+        <p></p>
+        <div class="input-confpass">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Confirm Password"
+            aria-label="Confirm Password"
+          />
+        </div>
+        <p></p>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Accept terms and coditions
+          </label>
+      </div>
+      <p></p>
+      <button type="button" class="btn btn-primary">Sign Up</button>
+    </div>
   </body>
+  <footer>MADE RISZA</footer>
 </html>
