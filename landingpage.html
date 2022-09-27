@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>landingpage</title>
+    <link rel="stylesheet" href="./css/landing.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,65 +14,365 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white">
       <div class="container-fluid">
-        <img src="./assets/logo no bg.png" class="img-fluid" alt="logo" />
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo no bg.png" alt="" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        ></button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
-          >
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Link
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="#">Create Event</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Link</a>
+              <a class="nav-link" href="#">Location</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
+          <div class="d-flex gap-3">
+            <button class="btn btn-outline-primary" type="submit">
+              Sign In
             </button>
-          </form>
+            <button class="btn btn-primary" type="submit">Sign Up</button>
+          </div>
         </div>
       </div>
     </nav>
+    <!-- End Navbar -->
+    <!-- Banner -->
+    <section class="banner">
+      <div class="banner__overlay">
+        <span class="banner__overlay--title"
+          ><p>Find events you</p>
+          love with our</span
+        >
+      </div>
+      <img src="./assets/banner.png" alt="banner" class="banner__image" />
+    </section>
+    <!--End Banner -->
+    <!-- Page Date -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- End Page Date -->
+    <!-- Event Card -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Card -->
+    <!-- Gutter -->
+    <div class="container text-center">
+      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">Row column</div>
+        </div>
+      </div>
+    </div>
+    <!-- End Gutter -->
+    <!-- Event by category -->
+    <nav class="menu">
+      <ul>
+        <li class="menu__list">
+          <a href="" class="menu__list--link">Music</a>
+        </li>
+        <li class="menu__list">
+          <a href="" class="menu__list--link">Arts</a>
+        </li>
+        <li class="menu__list">
+          <a href="" class="menu__list--link">Outdoors</a>
+        </li>
+        <li class="menu__list">
+          <a href="" class="menu__list--link">Workshop</a>
+        </li>
+        <li class="menu__list">
+          <a href="" class="menu__list--link">Sport</a>
+        </li>
+        <li class="menu__list">
+          <a href="" class="menu__list--link">Festival</a>
+        </li>
+        <li class="menu__list">
+          <a href="" class="menu__list--link">Fashion</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end event by category -->
+
   </body>
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+  
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <img src="./assets/logo no bg.png" class="img-fluid" alt="logo">
+            <p>
+           Find events you love with our 
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Wetick
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">About Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Features</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Blog</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Payments</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Mobile App</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Features
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Booking</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Create Event</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Discover</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Register</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Company
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Partnership</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Terms of Service</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Sitemap</a>
+            </p>
+          </div>
+          
+        
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+    </div>
+    <!-- Copyright -->
+  </footer>
 </html>
