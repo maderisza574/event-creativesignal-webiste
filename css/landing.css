@@ -49,6 +49,7 @@ ul {
 }
 
 .menu__list {
+  /* position: absolute; */
   display: inline-block;
   width: 25%;
 }
@@ -126,4 +127,19 @@ a span {
 
 a:hover span {
   transform: translate3d(-200%, 0, 0);
+}
+.menu {
+  position: absolute;
+  /* float: none; */
+  /* top: 50%; */
+  /* left: 40%; */
+  /* transform: translate(-50%, -50%); */
+}
+.footer {
+  position: absolute;
+  flex-direction: row;
+}
+.buttondate {
+  position: relative;
+  margin-right: 5px;
 }

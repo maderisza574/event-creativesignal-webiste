@@ -59,7 +59,6 @@
           ><br>Find events you</br>
           love with our</span>
       </section>
-        <!-- <input class="search" type="text" placeholder="text"> -->
         <img src="./assets/banner.png" alt="banner" class="banner__image" />
         <div class="search input-group mb-3">
           <span class="input-group-text bg-white " id=""><img src="./assets/findicon.png" placeholder="Search event"></span>
@@ -68,28 +67,31 @@
           <span class="input-group-text">Submit</span>
         </div>
     <!--End Banner -->
-    <!-- Page Date -->
-    <!-- End Page Date -->
+    <!-- Button Date -->
+    <div class=" container-fluid col text-center mb-3">
+          <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-outline-warning"><p>13<p>Mon</button>
+            </div>
+      <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-outline-warning"><p>14</p>Tue</button>
+             </div>
+      <div class="btn-group me-2" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-outline-warning"><p>15</p>Wed</button>
+      </div>
+      <div class="btn-group me-2" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-outline-warning"><p>16</p>Thu</button>
+      </div>
+      <div class="btn-group me-2" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-outline-warning"><p>17</p>Fri</button>
+      </div>
+        </div>
+    <!-- End Button Date -->
     <!-- Event Card -->
-    <main class="container">
-      <div class="separator">Next section</div>
-      <h3 class="text-center">&#8212;Events for you</h3>
-      <div class="d-flex gap-2">
-        <!-- <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/event.png"
-            class="card-img-top"
-            alt="image event"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-        </div> -->
-        <div class="card border-0" style="width: 260px; cursor: pointer">
+    <main class="container-fluid">
+      <div class="separator text-center">&#8212;EVENT</div>
+      <h3 class="text-center mb-3">Events for you</h3>
+      <div class="d-flex gap-2 mb-5">
+         <div class="card border-0" style="width: 260px; cursor: pointer">
           <img
             src="./assets/martin.png"
             class="card-img h-100"
@@ -198,70 +200,71 @@
     </main>
     <!-- End Card -->
     <!-- Gutter -->
-    <div class="container text-center">
-      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <div class="container justify-content-center overflow-hidden md bg-primary">
+      <H5> Discover Events Near You</H5>
+      <div class="row gx-5">
         <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
+         <div class="p-3 border bg-light">Custom column padding</div>
         </div>
         <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
+          <div class="p-3 border bg-light">Custom column padding</div>
         </div>
       </div>
     </div>
     <!-- End Gutter -->
     <!-- Event by category -->
-    <nav class="menu">
-      <ul>
-        <li class="menu__list">
-          <a href="" class="menu__list--link">Music</a>
-        </li>
-        <li class="menu__list">
-          <a href="" class="menu__list--link">Arts</a>
-        </li>
-        <li class="menu__list">
-          <a href="" class="menu__list--link">Outdoors</a>
-        </li>
-        <li class="menu__list">
-          <a href="" class="menu__list--link">Workshop</a>
-        </li>
-        <li class="menu__list">
-          <a href="" class="menu__list--link">Sport</a>
-        </li>
-        <li class="menu__list">
-          <a href="" class="menu__list--link">Festival</a>
-        </li>
-        <li class="menu__list">
-          <a href="" class="menu__list--link">Fashion</a>
-        </li>
-      </ul>
-    </nav>
-        <!-- end event by category -->
-
-    <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- end event by category -->
+    
+    <footer class="text-center ">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <nav class="menu mb-5">
+        <ul>
+          <li class="menu__list p-3">
+            <a href="" class="menu__list--link">Music</a>
+          </li>
+          <li class="menu__list p-3">
+            <a href="" class="menu__list--link">Arts</a>
+          </li>
+          <li class="menu__list p-3">
+            <a href="" class="menu__list--link">Outdoors</a>
+          </li>
+          <li class="menu__list p-3">
+            <a href="" class="menu__list--link">Workshop</a>
+          </li>
+          <li class="menu__list">
+            <a href="" class="menu__list--link">Sport</a>
+          </li>
+          <li class="menu__list p-3">
+            <a href="" class="menu__list--link">Festival</a>
+          </li>
+          <li class="menu__list p-3">
+            <a href="" class="menu__list--link">Fashion</a>
+          </li>
+        </ul>
+      </nav> -->
       <!-- Banner Footer -->
       <!-- <section class="banner_footer">
         <div class="banner__overlay">
@@ -273,16 +276,7 @@
         <img src="./assets/Bannerfooter.png" alt="banner" class="banner__image" />
       </section> -->
   <!-- end Banner footer -->
-      <!-- Section: Social media -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
-    
-        </div>
-        <!-- Left -->
-    
-        <!-- Right -->
-        <div>
+    <!-- <section class="d-flex justify-content-center justify-content-lg-between">
           <a href="" class="me-4 text-reset">
             <i class="fab fa-facebook-f"></i>
           </a>
@@ -302,26 +296,15 @@
             <i class="fab fa-github"></i>
           </a>
         </div>
-        <!-- Right -->
-      </section>
-      <!-- Section: Social media -->
-    
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <!-- Grid row -->
+           </section> -->
+        <div class="footer container-fluid text-center text-md-start mt-5">
           <div class="row mt-3">
-            <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
               <img src="./assets/logo no bg.png" class="img-fluid" alt="logo">
               <p>
              Find events you love with our 
               </p>
             </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4">
@@ -386,17 +369,15 @@
                 <a href="#!" class="text-reset">Sitemap</a>
               </p>
             </div>
-            
-          
           <!-- Grid row -->
         </div>
       </section>
       <!-- Section: Links  -->
     
       <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      <!-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2022 Copyright:
-      </div>
+      </div> -->
       <!-- Copyright -->
     </footer>
   </body>
