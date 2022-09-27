@@ -31,15 +31,15 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item1">
+            <a class="nav-link" href="#" >Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item2">
               <a class="nav-link" href="#">Create Event</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item3">
               <a class="nav-link" href="#">Location</a>
             </li>
           </ul>
@@ -55,82 +55,147 @@
     <!-- End Navbar -->
     <!-- Banner -->
     <section class="banner">
-          <span class="banner__overlay--title"
-          ><p>Find events you</p>
-          love with our</span
-        >
-      <img src="./assets/banner.png" alt="banner" class="banner__image" />
-    </section>
+          <span class="d-flex banner__overlay--title"
+          ><br>Find events you</br>
+          love with our</span>
+      </section>
+        <!-- <input class="search" type="text" placeholder="text"> -->
+        <img src="./assets/banner.png" alt="banner" class="banner__image" />
+        <div class="search input-group mb-3">
+          <span class="input-group-text bg-white " id=""><img src="./assets/findicon.png" placeholder="Search event"></span>
+          <input type="text" class="form-control" img src="./assets/findicon.png" placeholder="Search event">
+          <input type="text" class="form-control" placeholder="Where">
+          <span class="input-group-text">Submit</span>
+        </div>
     <!--End Banner -->
     <!-- Page Date -->
-    <nav aria-label="Page navigation example">
-      <ul class="pagination">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
     <!-- End Page Date -->
     <!-- Event Card -->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
+    <main class="container">
+      <div class="separator">Next section</div>
+      <h3 class="text-center">&#8212;Events for you</h3>
+      <div class="d-flex gap-2">
+        <!-- <div class="card" style="width: 18rem">
+          <img
+            src="./assets/img/event.png"
+            class="card-img-top"
+            alt="image event"
+          />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
             </p>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+        </div> -->
+        <div class="card border-0" style="width: 260px; cursor: pointer">
+          <img
+            src="./assets/martin.png"
+            class="card-img h-100"
+            style="object-fit: cover; border-radius: 30px"
+            alt="image event"
+          />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-end mb-4"
+          >
+            <h6 class="card-title text-white">Card title</h6>
+            <p class="card-text text-white">
+            Progressive House Music
+            </p>
+            <img
+              src="./assets/avatar.png"
+              alt=""
+              style="width: 90px"
+            />
+          </div>
+        </div>
+        <div class="card border-0" style="width: 260px; cursor: pointer">
+          <img
+            src="./assets/martin.png"
+            class="card-img h-100"
+            style="object-fit: cover; border-radius: 30px"
+            alt="image event"
+          />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-end mb-4"
+          >
+            <h6 class="card-title text-white">Card title</h6>
+            <p class="card-text text-white">
+              electro house music
+            </p>
+            <img
+              src="./assets/avatar.png"
+              alt=""
+              style="width: 90px"
+            />
+          </div>
+        </div>
+        <div class="card border-0" style="width: 260px; cursor: pointer">
+          <img
+            src="./assets/martin.png"
+            class="card-img h-100"
+            style="object-fit: cover; border-radius: 30px"
+            alt="image event"
+          />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-end mb-4"
+          >
+            <h6 class="card-title text-white">Card title</h6>
+            <p class="card-text text-white">
+              electro
+            </p>
+            <img
+              src="./assets/avatar.png"
+              alt=""
+              style="width: 90px"
+            />
+          </div>
+        </div>
+        <div class="card border-0" style="width: 260px; cursor: pointer">
+          <img
+            src="./assets/martin.png"
+            class="card-img h-100"
+            style="object-fit: cover; border-radius: 30px"
+            alt="image event"
+          />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-end mb-4"
+          >
+            <h6 class="card-title text-white">Card title</h6>
+            <p class="card-text text-white">
+             electro
+            </p>
+            <img
+              src="./assets/avatar.png"
+              alt=""
+              style="width: 90px"
+            />
+          </div>
+        </div>
+        <div class="card border-0" style="width: 260px; cursor: pointer">
+          <img
+            src="./assets/martin.png"
+            class="card-img h-100"
+            style="object-fit: cover; border-radius: 30px"
+            alt="image event"
+          />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-end mb-4"
+          >
+            <h6 class="card-title text-white">Card title</h6>
+            <p class="card-text text-white">
+              electro
+            </p>
+            <img
+              src="./assets/avatar.png"
+              alt=""
+              style="width: 90px"
+            />
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-    </div>
+    </main>
     <!-- End Card -->
     <!-- Gutter -->
     <div class="container text-center">
@@ -194,194 +259,145 @@
         </li>
       </ul>
     </nav>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end event by category -->
+        <!-- end event by category -->
 
-  </body>
-  <footer class="text-center text-lg-start bg-light text-muted">
-    <!-- Banner Footer -->
-    <section class="banner_footer">
-      <div class="banner__overlay">
-        <span class="banner__overlay--title"
-          ><p>Find events you</p>
-          love with our</span
-        >
-      </div>
-      <img src="./assets/Bannerfooter.png" alt="banner" class="banner__image" />
-    </section>
-<!-- end Banner footer -->
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-  
-      </div>
-      <!-- Left -->
-  
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-  
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <img src="./assets/logo no bg.png" class="img-fluid" alt="logo">
-            <p>
-           Find events you love with our 
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Wetick
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">About Us</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Features</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Blog</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Payments</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Mobile App</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Features
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Booking</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Create Event</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Discover</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Register</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Company
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Partnership</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Terms of Service</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Privacy Policy</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Sitemap</a>
-            </p>
-          </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Banner Footer -->
+      <!-- <section class="banner_footer">
+        <div class="banner__overlay">
+          <span class="banner__overlay--title"
+            ><p>Find events you</p>
+            love with our</span
+          >
+        </div>
+        <img src="./assets/Bannerfooter.png" alt="banner" class="banner__image" />
+      </section> -->
+  <!-- end Banner footer -->
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+    
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <img src="./assets/logo no bg.png" class="img-fluid" alt="logo">
+              <p>
+             Find events you love with our 
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Wetick
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">About Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Features</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Blog</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Payments</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Mobile App</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Features
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Booking</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Create Event</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Discover</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Register</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Company
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Partnership</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Terms of Service</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Privacy Policy</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Sitemap</a>
+              </p>
+            </div>
+            
           
-        
-        <!-- Grid row -->
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2022 Copyright:
       </div>
-    </section>
-    <!-- Section: Links  -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2022 Copyright:
-    </div>
-    <!-- Copyright -->
-  </footer>
+      <!-- Copyright -->
+    </footer>
+  </body>
 </html>
