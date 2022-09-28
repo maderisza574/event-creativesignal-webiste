@@ -23,4 +23,4 @@
 
 ## License
 
-© [Made Risza Kartika](https://github.com/bagusth15/)
+© [Made Risza Kartika](https://github.com/maderisza574/)
