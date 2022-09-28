@@ -12,6 +12,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -55,8 +56,8 @@
     <!-- End Navbar -->
     <!-- Banner -->
     <section class="banner">
-          <span class="d-flex banner__overlay--title"
-          ><br>Find events you</br>
+          <span class="mt-5 d-flex banner__overlay--title"
+          >Find events you</br>
           love with our</span>
       </section>
         <img src="./assets/banner.png" alt="banner" class="banner__image" />
@@ -197,10 +198,13 @@
           </div>
         </div>
       </div>
+      <div class="d-grid gap-2 col-5 mx-auto">
+        <button class="btn border-primary text-primary" type="button">See all</button>
+      </div>
     </main>
     <!-- End Card -->
     <!-- Gutter -->
-    <div class="container justify-content-center overflow-hidden md bg-primary">
+    <!-- <div class="container justify-content-center overflow-hidden md bg-primary">
       <H5> Discover Events Near You</H5>
       <div class="row gx-5">
         <div class="col">
@@ -210,12 +214,12 @@
           <div class="p-3 border bg-light">Custom column padding</div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- End Gutter -->
     <!-- Event by category -->
     <!-- end event by category -->
     
-    <footer class="text-center ">
+    <!-- <footer class="text-center "> -->
       <!-- <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -379,6 +383,9 @@
         © 2022 Copyright:
       </div>
       <!-- Copyright -->
-    </footer>
+    <!-- </footer> -->
+    <script>
+      feather.replace()
+    </script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .body {
   background-color: #ffffff;
 }
@@ -23,4 +24,18 @@
 }
 .form-group {
   max-width: fit-content;
+}
+.sign {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.hi {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.acc {
+  font-family: "Poppins";
+  font-size: 15px;
 }
