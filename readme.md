@@ -7,7 +7,7 @@
     <a href="https://github.com/FazzWeb10/Responsive-Website/pulls">Request Feature</a>
   </p>
 
-![Image Banner](Capture.png)
+![Image Banner](capture.png)
 
 ## About The Project
 
