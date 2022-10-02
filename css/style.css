@@ -2,29 +2,6 @@
 .body {
   background-color: #ffffff;
 }
-.column {
-  float: left;
-  position: absolute;
-  width: auto;
-  height: 500px;
-  left: 0px;
-  top: 0px;
-  max-width: fit-content;
-  background: #3366ff;
-}
-.column2 {
-  float: right;
-  position: relative;
-  height: 500px;
-  left: 850px;
-  top: 0px;
-  width: auto;
-
-  background: #ffffff;
-}
-.form-group {
-  max-width: fit-content;
-}
 .sign {
   font-family: "Poppins";
   font-size: 24px;
@@ -38,4 +15,16 @@
 .acc {
   font-family: "Poppins";
   font-size: 15px;
+}
+.forgot {
+  margin-left: 230px;
+}
+.buttonsign {
+  margin-left: 80px;
+}
+.goo {
+  margin-left: 100px;
+}
+.face {
+  margin-right: 75px;
 }
