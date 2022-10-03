@@ -26,6 +26,21 @@
   /* flex-direction: row;
   justify-content: space-around; */
 }
+.bannerbott__tittle {
+  z-index: 2;
+  position: absolute;
+  color: white;
+}
+.discimage {
+  z-index: 2;
+  position: absolute;
+}
+.rounded {
+  max-width: 100px;
+  max-height: 100px;
+}
+.see {
+}
 .search {
   position: absolute;
   z-index: 2;
